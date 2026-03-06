@@ -12,7 +12,8 @@ jobs:
   # Tâche de construction de l'image Docker
   build:
     # Utiliser la dernière version d'Ubuntu
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     # Étapes à exécuter
     steps:
