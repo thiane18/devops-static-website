@@ -36,7 +36,7 @@ jobs:
       - name: Push image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
 
-      - name: Run Trivy vulnerability scanner
+      - name: Run Trivy vulnerability scanner 1
         uses: aquasecurity/trivy-action@0.20.0
         with:
           image-ref: ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
