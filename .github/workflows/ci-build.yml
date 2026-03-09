@@ -18,7 +18,7 @@ jobs:
     # Étapes à exécuter
     steps:
       # Récupérer le code du dépôt
-      - name: Checkout code
+      - name: Checkout code 1
         uses: actions/checkout@v4
 
       # Se connecter à Docker Hub avec les identifiants secrets
